@@ -1,5 +1,8 @@
+## ---- echo = FALSE------------------------------------------------------------
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+
 ## ---- echo=TRUE, message=FALSE, knitr::opts_chunk$set(cache=TRUE)-------------
-library(RecordLinkage)
+library(blink)
 data(RLdata500)
 head(RLdata500)
 
